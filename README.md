@@ -81,8 +81,8 @@ grid_search.fit(x_train,y_train)
 
 #Extract the best model
 best_model=grid_search.best_estimator_
-print("Name: MITHUN KALYAN")
-print("Register Number: 212223040142")
+print("Name: AMIRTHA VARSHINI M")
+print("Register Number: 212224230017")
 print("Best Parameter:",grid_search.best_params_)
 
 y_pred=best_model.predict(x_test)
